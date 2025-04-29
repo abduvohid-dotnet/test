@@ -32,7 +32,7 @@ const About = () => {
                                 </div>
                             </li>
                             <li onClick={() => setItemID(3)}>
-                                <div className={`ronded-[5px] px-4 py-4 ${itemID === 3 ? 'dark:bg-[#94a3b8] bg-[#172135]' : 'dark:bg-[#F7F3F3] bg-[#111827]'}`}>
+                                <div className={`rounded-[5px] px-4 py-4 ${itemID === 3 ? 'dark:bg-[#94a3b8] bg-[#172135]' : 'dark:bg-[#F7F3F3] bg-[#111827]'}`}>
                                     <i><SiOculus className="dark:text-[#111827]" /></i>
                                     <h3 className="dark:text-[#172135] text-normal text-[18px] text-[#94a3b8] m-0">Oculus</h3>
                                     <p className="dark:text-[#17213566] text-[#F7F3F3] text-[12px] font-normal m-0">Software Engineer</p>

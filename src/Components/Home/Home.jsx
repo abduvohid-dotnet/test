@@ -1,10 +1,9 @@
 import HeaderData from "../../data/Header/HeaderData";
-import { IoLogoJavascript } from "react-icons/io5";
-import { PiFileHtmlDuotone } from "react-icons/pi";
-import { PiFileCss } from "react-icons/pi";
-import { RiTailwindCssFill } from "react-icons/ri";
 import About from "../About/About";
+import Work from "../Work/Work";
 import programmLanguages from "../../data/Home/HomeData";
+import HomeContact from "../HomeContact/HomeContact";
+import Contact from "../Contact/Contact";
 // import useDarkMode from "../DarkMode/DarkMode";
 
 const Home = () => {
@@ -42,6 +41,10 @@ const Home = () => {
             </section>
 
             <About />
+            <Work />
+            <HomeContact />
+            <Contact />
+
         </>
 
     )
