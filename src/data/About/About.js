@@ -26,12 +26,15 @@ const experienceData = [
         to: 2022,
         items: [
             {
+                sign: ">",
                 description: " Developed and maintained the core web platform, ensuring a seamless and engaging experience for technical bloggers and readers."
             },
             {
+                sign: ">",
                 description: "Collaborated with the design team to create interactive and responsive UI components.",
             },
             {
+                sign: ">",
                 description: "Optimized performance and accessibility to improve user engagement across various devices."
             }
         ]
@@ -43,12 +46,15 @@ const experienceData = [
         to: 2020,
         items: [
             {
+                sign: ">",
                 description: "Engineered immersive VR interfaces and interactive components for a next-generation virtual reality platform."
             },
             {
+                sign: ">",
                 description: "Worked closely with 3D artists and UX designers to create intuitive and futuristic user experiences.",
             },
             {
+                sign: ">",
                 description: "Implemented performance optimizations to ensure smooth and responsive VR interactions."
             }
         ]
